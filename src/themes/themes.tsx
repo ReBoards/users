@@ -10,4 +10,7 @@ export const Themes = {
     electricBlue: '#15C0E9',
     electricGreen: '#00FCA8',
   },
+  styles: {
+    borderRadius: 2
+  }
 };

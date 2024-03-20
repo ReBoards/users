@@ -36,7 +36,7 @@ export const NavBar: React.FC = () => {
   };
 
   return (
-    <AppBar position="static" sx={{background: Themes.palette.primary}}>
+    <AppBar position="static" sx={{background: Themes.palette.primary, borderRadius: Themes.styles.borderRadius}}>
       <Container maxWidth={false}>
         <Toolbar disableGutters>
           <DashboardIcon
