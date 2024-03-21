@@ -1,7 +1,6 @@
 import { StrictMode, useEffect } from 'react'
 import { createRoot } from 'react-dom/client'
 import App from './App.tsx'
-import './index.css'
 import { Themes } from './themes/themes.tsx'
 
 const Root = () => {

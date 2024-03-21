@@ -1,15 +1,8 @@
-//react
-import { FC } from "react";
-//pages
-import Home from "./pages/home";
-//components
-import { NavBar } from "./components/private/shared/navbar";
+import React from 'react';
+import AppRoutes from './router/routes';
 
-const App: FC = () => (
-  <>
-    <NavBar />
-    <Home />
-  </>
-);
+const App: React.FC = () => {
+  return <AppRoutes />;
+};
 
 export default App;
